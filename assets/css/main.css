@@ -3005,6 +3005,39 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+/* Navbar - fixed to top */
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 10000;
+	background: #333333;
+	color: #ffffff;
+	padding: 0.35em 1.25em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+	font-size: 0.95rem;
+}
+
+.navbar a {
+	color: inherit;
+	margin-left: 1em;
+}
+
+.navbar a:hover {
+	color: #e6e6e6;
+}
+
+/* Ensure content after the navbar isn't hidden behind it */
+.navbar + section,
+.navbar + * {
+	margin-top: 2.4em;
+}
+
 		#header h1 {
 			margin: 0;
 		}
