@@ -7,40 +7,21 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-			.container {
-				display: flex;
-				align-items: center; /* Vertically centers the content */
-				gap: 100px; /* Adds space between the image and the text */
-				margin: auto;
-				justify-content: center;
-			}
-	
-			.container img {
-				width: 250px; /* Adjust the size of the image */
-				height: auto;
-			}	
-
-			.container img {
-				width: 250px;
-				height: auto;
-			}
-
-			.container .text {
-				max-width: 400px;
+			.header-left header.major {
+				text-align: left;
 			}
 
 			.text-only {
-				justify-content: center;
 				text-align: left;
 			}
 
 			.text-only .text {
-				max-width: 750px;
+				max-width: 60em;
 			}
 
 		</style>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload short">
 
 		<!-- Header -->
 		<section id="header">
@@ -72,8 +53,13 @@
 				<br>
 			-->
 
-		<section id="two" class="main style1" align = center>
-				<h2 >Ongoing Projects</h2>
+		<section id="one" class="main style1">
+				<div class="container header-left">
+					<header class="major">
+						<h2>Ongoing Projects</h2>
+					</header>
+				</div>
+				
 			
 			<div class="container text-only">
 				<div class="text" align = justify>
@@ -106,11 +92,14 @@
 					</p>
 				</div>
 			</div>
-			
-			<br>
-			<br>
-			
-			<h2 align = center>Past Projects</h2>
+		</section>
+		
+		<section id="one" class="main style1">
+				<div class="container header-left">
+					<header class="major">
+						<h2>Past Projects</h2>
+					</header>
+				</div>
 			
 			<div class="container text-only">
 				<div class="text" align = justify>

@@ -29,8 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html, body {
+	min-height: 100%;
+}
+
 body {
 	line-height: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 /* Ensure footer stays at bottom when content is short (apply only to pages with `short` body class) */
@@ -40,8 +47,8 @@ body.short {
 	min-height: 100vh;
 }
 
-/* Make footer stick to bottom on short pages */
-body.short #footer {
+/* Make footer stick to bottom */
+#footer {
 	margin-top: auto;
 }
 
@@ -3185,6 +3192,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		width: 100%;
+		box-sizing: border-box;
 		padding: 3em 0 2em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
