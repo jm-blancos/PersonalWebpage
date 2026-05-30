@@ -2586,7 +2586,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1.25em 0 0;
+			padding: 0 0.6em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2594,7 +2594,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 0.9em;
 			}
 
 /* Major Icons */
@@ -3194,14 +3194,14 @@ input, select, textarea {
 	#footer {
 		width: 100%;
 		box-sizing: border-box;
-		padding: 3em 0 2em 0 ;
+		padding: 0.75em 0 0.75em 1em;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
-		text-align: center;
+		text-align: left;
 	}
 
 		#footer a {
@@ -3286,21 +3286,23 @@ input, select, textarea {
 
 		#footer .icons {
 			margin: 0;
+			text-align: left;
 		}
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 0.65em;
 			list-style: none;
-			margin: 2em 0 0 0;
+			margin: 0.25em 0 0 0;
 			padding: 0;
+			text-align: left;
 		}
 
 			#footer .copyright li {
 				border-left: solid 1px;
 				display: inline-block;
 				line-height: 1em;
-				margin-left: 1em;
-				padding: 0 0 0 1em;
+				margin-left: 0.5em;
+				padding: 0 0 0 0.5em;
 			}
 
 				#footer .copyright li:first-child {
