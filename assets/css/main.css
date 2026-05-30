@@ -2933,10 +2933,10 @@ input, select, textarea {
 
 	#header {
 		padding: 7em 0 2em 0 ;
-		background-color: #4686a0;
+		background-color: #2d2d2d;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #2d2d2d 0%, #1f5f6f 40%, #1a9ba8 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3195,10 +3195,10 @@ input, select, textarea {
 		width: 100%;
 		box-sizing: border-box;
 		padding: 0.75em 0 0.75em 1em;
-		background-color: #4686a0;
+		background-color: #2d2d2d;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #2d2d2d 0%, #1f5f6f 40%, #1a9ba8 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: left;
