@@ -3311,10 +3311,37 @@ input, select, textarea {
 					padding: 0;
 				}
 
-/* XLarge */
+/* Back to Top Button */
 
-	@media screen and (max-width: 1680px) {
+	.back-to-top {
+		position: fixed;
+		bottom: 3.25rem;
+		right: 3.25rem;
+		display: none;
+		width: 2.5rem;
+		height: 2.5rem;
+		background-color: rgba(120, 170, 180, 0.9);
+		color: #ffffff;
+		border: none;
+		border-radius: 50%;
+		font-size: 1.5rem;
+		cursor: pointer;
+		z-index: 999;
+		transition: background-color 0.3s ease, opacity 0.3s ease;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		line-height: 2.5rem;
+		text-align: center;
+	}
 
+	.back-to-top:hover {
+		background-color: rgba(120, 170, 180, 1);
+	}
+
+	.back-to-top.show {
+		display: flex;
+	}
 		/* Basic */
 
 			body, input, select, textarea {
